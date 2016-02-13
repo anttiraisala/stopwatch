@@ -1,0 +1,15 @@
+Result:
+StopWatch name:                 15.003s
+[interval 1                 ]   0.0002s 100.000%    ******************
+[interval 2                 ]   0.0002s 100.000%    **
+[interval with sub tasks    ]   7.0000s 100.000%    *****
+    StopWatch2 name:            2.5000s
+    [asdasd adasd adasd asd ]   1.0000s 100.000%    *
+    [asdasd adasd adasd asd ]   1.5000s 100.000%    **
+    StopWatch3 name:            2.5000s
+    [asdasd adasd adasd asd ]   1.0000s 100.000%    *
+    [asdasd adasd adasd asd ]   1.5000s 100.000%    **
+    Filler time:                2.0000s 100.000&    *
+[asdasd adasd adasd asd     ]   0.0002s 100.000%    ******************
+[interval 3                 ]   0.0002s 100.000%    ******************
+
