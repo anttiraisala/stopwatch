@@ -8,6 +8,13 @@
     <artifactId>stopwatch</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <name>fxStudio - Instrumentation's StopWatch</name>
+    <url>https://github.com/anttiraisala/stopwatch</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>

@@ -1,6 +1,7 @@
 package fi.fxstudio.instrumentation.stopwatch.test;
 
 import fi.fxstudio.instrumentation.stopwatch.StopWatch;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -234,6 +235,7 @@ public class StopWatchTest {
         return sw;
     }
 
+    @Ignore
     @Test
     public void loadTest(){
 
@@ -253,6 +255,7 @@ public class StopWatchTest {
         StopWatch.Result result = sw.getResult();
     }
 
+    @Ignore
     @Test
     public void loadTest2(){
 
