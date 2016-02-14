@@ -1,7 +1,6 @@
 package fi.fxstudio.instrumentation.stopwatch.test;
 
 import fi.fxstudio.instrumentation.stopwatch.StopWatch;
-import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -12,16 +11,21 @@ public class StopWatchTest {
     @Test
     public void simpleTest(){
 
+        // Create new StopWatch
         StopWatch sw = new StopWatch();
         sw.setName("Simple");
 
-        sw.startInterval("5s");
-        sleep(5000);
+        // "push start"
+        sw.startInterval("1.5s");
+        sleep(1500);
 
+        // "push stop"
         sw.stopInterval();
 
-        StopWatch.Result result = sw.getResult();
+        // Get HTML-formatted result
+        String htmlTable = sw.getResultAsHtmlTable();
 
+        // Get console-friendly result
         String resultString = sw.getResultAsString();
         System.out.println(resultString);
     }
@@ -29,22 +33,26 @@ public class StopWatchTest {
     @Test
     public void simple2IntervalsTest(){
 
+        // Create new StopWatch
         StopWatch sw = new StopWatch("simple2IntervalsTest");
 
-        sw.startInterval("2s");
-        sleep(2000);
+        // "push start"
+        sw.startInterval("1s");
+        sleep(1000);
 
+        // "push start"; start a new interval ( and stop the previous one )
         sw.startInterval("2.5s");
         sleep(2500);
 
+        // "push stop"
         sw.stopInterval();
 
-        StopWatch.Result result = sw.getResult();
+        // Get HTML-formatted result
+        String htmlTable = sw.getResultAsHtmlTable();
 
+        // Get console-friendly result
         String resultString = sw.getResultAsString();
         System.out.println(resultString);
-
-        String htmlTable = sw.getResultAsHtmlTable();
     }
 
 
@@ -235,7 +243,6 @@ public class StopWatchTest {
         return sw;
     }
 
-    @Ignore
     @Test
     public void loadTest(){
 
@@ -255,7 +262,6 @@ public class StopWatchTest {
         StopWatch.Result result = sw.getResult();
     }
 
-    @Ignore
     @Test
     public void loadTest2(){
 
