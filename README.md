@@ -21,61 +21,6 @@ Maven depedency:
 
 ## Code examples
 
-<style>
-
-.stopwatch-result tr.odd-row {
-	background: #CCC;
-}
-
-table.stopwatch-result
-{
-	border-collapse: collapse;
-
-}
-
-.stopwatch-result td
-{
-
-	border: solid 1px;
-	border-left: none;
-	border-right: none;
-}
-
-.stopwatch-result .column-border
-{
-	border-left: 1px solid #000;
-	border-right: 1px solid #000;
-}
-
-.stopwatch-result th.column-border
-{
-	padding: 10px;
-}
-
-.stopwatch-result .title-text
-{	font-weight: bold;
-	padding-left: 5px;
-	padding-right: 5px;
-}
-
-.stopwatch-result .title-number
-{
-	font-weight: bold;
-}
-
-.stopwatch-result .row
-{
-	padding-left: 20px;
-}
-
-.stopwatch-result .align-number
-{
-	padding-right: 10px;
-	text-align: right;
-}
-
-</style>
-
 <table>
 <tr><td>
 <b>Code</b>
