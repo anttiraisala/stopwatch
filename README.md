@@ -1,8 +1,10 @@
 # stopwatch
-Simple profiling; a stopwatch to measure time, how long a time does some stuff take.
-
+# Simple profiling; a stopwatch to measure time, how long a time does some stuff take.
 
 <hr/>
+
+## Quick start
+
 
 Simple commands to compile into local maven repository:
 
@@ -20,3 +22,11 @@ Maven depedency:
 
 
 
+
+
+
+#### Links
+###### git - the simple guide; just a simple guide for getting started with git. no deep shit ;)
+http://rogerdudler.github.io/git-guide/
+###### Markdown: Syntax
+https://daringfireball.net/projects/markdown/syntax#header
