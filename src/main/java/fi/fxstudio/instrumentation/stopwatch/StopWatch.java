@@ -268,7 +268,7 @@ public class StopWatch implements Serializable {
         return intervals;
     }
 
-    public class IdentifierForMatchingIntervals {
+    private class IdentifierForMatchingIntervals {
         private String declaringClass;
         private int linenumber;
 
@@ -289,7 +289,7 @@ public class StopWatch implements Serializable {
         }
     }
 
-    public class IdentifierForMatchingStopWatches {
+    private class IdentifierForMatchingStopWatches {
         private String declaringClass;
         private int linenumber;
 
@@ -405,7 +405,7 @@ public class StopWatch implements Serializable {
     /**********************************************************/
     /**********************************************************/
     /**********************************************************/
-    public class Result {
+    private class Result {
         private List<ResultRow> resultRows = new ArrayList<ResultRow>(50);
 
         private Double duration = 0.0D;
@@ -434,7 +434,7 @@ public class StopWatch implements Serializable {
         }
     }
 
-    public class ResultRow {
+    private class ResultRow {
         private int hierarchyDepth;
         private Interval interval;
         private String name;
