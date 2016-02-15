@@ -1,23 +1,30 @@
 # stopwatch
-# Simple profiling; a stopwatch to measure time, how long a time does some stuff take.
+# Simple profiling for Java; a stopwatch to measure time, how long a time does some stuff take.
 
 <hr/>
 
-## Getting the library
+###### Meta tags
+simple profile profiling java class classes millisecond milliseconds
 
-Simple commands to compile into local maven repository:
+## Get the library working
+
+### Simple commands to compile into local maven repository
 
     git clone https://github.com/anttiraisala/stopwatch.git
     cd stopwatch
     mvn clean install -DskipTests=true
 
-Maven depedency:
+### Maven depedency
 
     <dependency>
         <groupId>fxstudio-instrumentation</groupId>
         <artifactId>stopwatch</artifactId>
         <version>1.0-SNAPSHOT</version>
     </dependency>
+
+### Java imports
+
+    import fi.fxstudio.instrumentation.stopwatch.StopWatch;
 
 ## Code examples
 
