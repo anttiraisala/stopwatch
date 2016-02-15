@@ -4,7 +4,7 @@
 <hr/>
 
 ###### Meta tags
-simple profile profiling java class classes millisecond milliseconds
+simple profile profiling java class classes millisecond milliseconds graph
 
 ## Get the library working
 
