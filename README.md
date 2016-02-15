@@ -17,6 +17,7 @@ simple profile profiling java class classes millisecond milliseconds graph
 ### Maven depedency
 
     <dependency>
+        <!-- https://github.com/anttiraisala/stopwatch -->
         <groupId>fxstudio-instrumentation</groupId>
         <artifactId>stopwatch</artifactId>
         <version>1.0-SNAPSHOT</version>
